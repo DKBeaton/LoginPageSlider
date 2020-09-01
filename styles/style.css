@@ -43,9 +43,12 @@ span {
 
 a {
   color: #333;
-  text-decoration: none;
   font-size: 0.9em;
   margin: 20px 0;
+}
+
+.social-container a {
+  text-decoration: none;
 }
 
 .container {
