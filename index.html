@@ -34,12 +34,33 @@
              class="social linkedin"><i class="fab fa-linkedin-in"></i></a>
         </div>
         <span>or use your email for registration</span>
-        <input type="text"
-               placeholder="Name" />
-        <input type="Text"
-               placeholder="Email" />
-        <input type="text"
-               placeholder="Password" />
+        <div class="input-container">
+          <label for="sign-up-name"
+                 id="name-label">Name</label>
+          <input type="text"
+                 id="sign-up-name"
+                 class="input"
+                 title="Please enter your name"
+                 required />
+        </div>
+        <div class="input-container">
+          <label for="sign-up-email"
+                 id="email-label">Email</label>
+          <input type="Text"
+                 id="sign-up-email"
+                 class="input"
+                 title="Please enter your email"
+                 required />
+        </div>
+        <div class="input-container">
+          <label for="sign-up-password"
+                 id="password-label">Password</label>
+          <input type="text"
+                 id="sign-up-password"
+                 class="input"
+                 title="Please enter your password"
+                 required />
+        </div>
         <button>Sign Up</button>
       </form>
     </div>
@@ -55,10 +76,24 @@
              class="social linkedin"><i class="fab fa-linkedin-in"></i></a>
         </div>
         <span>or use your account</span>
-        <input type="Text"
-               placeholder="Email" />
-        <input type="text"
-               placeholder="Password" />
+        <div class="input-container">
+          <label for="login-email"
+                 id="login-email-label">Email</label>
+          <input type="Text"
+                 id="login-email"
+                 class="input"
+                 title="Please enter your email"
+                 required />
+        </div>
+        <div class="input-container">
+          <label for="login-password"
+                 id="login-password-label">Password</label>
+          <input type="text"
+                 id="login-password"
+                 class="input"
+                 title="Please enter your password"
+                 required />
+        </div>
         <a href="#">Forgot your password?</a>
         <button>Sign In</button>
       </form>

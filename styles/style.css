@@ -126,6 +126,25 @@ a.social.linkedin:hover {
   color: #fff;
 }
 
+.input-container {
+  position: relative;
+  width: 100%;
+}
+
+.form-container label {
+ position: absolute;
+ top: 0;
+ left: 0;
+ padding: 15px 15px;
+ font-size: 0.8em;
+ color: #333;
+ transition: top 0.5s ease-in-out;
+}
+
+.focus label {
+  top: -18px;
+}
+
 .form-container input {
   background: #eee;
   border: none;
