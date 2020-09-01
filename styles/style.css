@@ -123,6 +123,18 @@ button {
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 1px;
+  cursor: pointer;
+  transition: transform 80ms ease-in; 
+}
+
+button:active {
+  transform: scale(0.95);
+}
+
+button:hover {
+  background: transparent;
+  border: 1px solid #536976;
+  color: #536976;
 }
 
 button span {
@@ -132,20 +144,25 @@ button span {
 .hide-right {
   transform: translateX(30%);
   transition: transform 0.3s ease-in-out;
+  animation: hide 0.3s;
+  opacity: 1;
 }
 
 .hide-left {
   transform: translateX(-30%);
   transition: transform 0.3s ease-in-out;
-}
-
-button:active {
-  transform: scale(0.95);
+  animation: hide 0.3s;
+  opacity: 1;
 }
 
 button.ghost {
   background: transparent;
   border-color: #fff;
+}
+
+button.ghost:hover {
+  background: #fff;
+  color: #536976;
 }
 
 /* Overlay */
@@ -232,6 +249,8 @@ button.ghost {
 
 .container.sign-up-active .overlay-right {
   transform: translateX(20%);
+  visibility: hidden;
+  transition: all 0.3s ease-in;
 }
 
 /* keyframes */
@@ -249,3 +268,26 @@ button.ghost {
     z-index: 5;
   }
 }
+
+@keyframes hide {
+  0% {
+    opacity: 1;
+  }
+
+  20% {
+    opacity: 0.8;
+  }
+
+  40% {
+    opacity: 0.6;
+  }
+
+  80% {
+    opacity: 0.2;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
