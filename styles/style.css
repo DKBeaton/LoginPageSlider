@@ -109,6 +109,24 @@ a {
   width: 40px;
 }
 
+a.social.facebook:hover {
+  background: #3b5998;
+  border: 1px solid #3b5998;
+  color: #fff;
+}
+
+a.social.google:hover {
+  background: #d34836;
+  border: 1px solid #d34836;
+  color: #fff;
+}
+
+a.social.linkedin:hover {
+  background: #0077b5;
+  border: 1px solid #0077b5;
+  color: #fff;
+}
+
 .form-container input {
   background: #eee;
   border: none;
