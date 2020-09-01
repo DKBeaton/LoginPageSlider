@@ -8,14 +8,6 @@ const signUpSpan = document.getElementById('sign-up-span');
 const containerElement = document.getElementById('container');
 const inputElements = document.querySelectorAll('.input');
 
-// inputElements[0].addEventListener('focus', (event) => {
-//   event.target.style.background = 'pink';    
-// });
-
-// inputElements[0].addEventListener('blur', (event) => {
-//   event.target.style.background = '';    
-// });
-
 // Focus Function
 function focusFunction () {
 
