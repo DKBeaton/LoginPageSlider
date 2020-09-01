@@ -16,7 +16,6 @@
 
 body {
   display: flex;
-  /* flex-direction: column; */
   justify-content: center;
   align-items: center;
   font-size: 16px;
@@ -44,7 +43,7 @@ span {
 a {
   color: #333;
   font-size: 0.9em;
-  margin: 20px 0;
+  margin-top: 20px;
 }
 
 .social-container a {
@@ -146,6 +145,7 @@ button {
   letter-spacing: 1px;
   cursor: pointer;
   transition: transform 80ms ease-in; 
+  margin: 25px 0;
 }
 
 button:active {
