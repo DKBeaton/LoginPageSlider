@@ -257,7 +257,7 @@ button.ghost:hover {
 /* Move sign-up-container to right side */
 .container.sign-up-active .sign-up-container {
   transform: translateX(100%);
-  animation: show 0.3s;
+  animation: show 0.4s;
   opacity: 1;
   z-index: 5;
 }
